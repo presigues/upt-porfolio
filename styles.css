@@ -1,0 +1,333 @@
+
+@font-face { font-family: pixel; src: url("Astronomus.ttf"); } 
+
+@font-face { font-family: pixelthin; src: url("UAV-OSD-Sans-Mono.ttf"); }
+
+
+
+
+#pfp {
+    width: 100px;
+    border-radius: 40px;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}   
+#title{
+font-family: pixel;
+font-size: 100;
+position: fixed; 
+left: 120px;
+top: 12px; 
+color: rgb(0, 0, 0);  
+    
+}
+#name{
+font-family: pixel;
+position: fixed;
+left: 120px;
+top: 35px;
+color: rgb(0, 0, 0);
+}
+#projects{
+
+background-color: rgb(255, 255, 255);
+border: 4px solid black;
+color: rgb(0, 0, 0);
+border-radius: 10px;
+position: fixed;
+top: 18px;
+left: 1100px;
+width: 120px;
+height: 80px;
+font-size: 16px;
+font-family: pixel;
+transition-duration: 0.4s;
+
+}
+#projects:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 90px;
+
+
+}
+#about{
+
+    background-color: rgb(255, 255, 255);
+    border: 4px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    position: fixed;
+    top: 18px;
+    left: 900px;
+    width: 120px;
+    height: 80px;
+    font-size: 20px;
+    font-family: pixel;
+    transition-duration: 0.4s;
+
+
+}
+#about:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 90px;
+}
+#home{
+
+    background-color: rgb(255, 255, 255);
+    border: 4px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    position: fixed;
+    top: 18px;
+    left: 700px;
+    width: 120px;
+    height: 80px;
+    font-size: 20px;
+    font-family: pixel;
+    transition-duration: 0.4s;
+
+
+}
+#home:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 90px;
+}
+#insta{
+width: 50px;
+position: fixed;
+top: 25px;
+left: 1800px;
+
+
+}
+#git{
+    width: 50px;
+    position: fixed;
+    top: 25px;
+    left: 1730px;
+    
+    
+    }
+
+#tube{
+    width: 70px;
+    position: fixed;
+    top: 25px;
+    left: 1640px;
+        
+        
+        }
+
+
+
+#intro{
+
+font-family: pixelthin;
+width: 700;
+position: fixed;
+left: 130px;
+top: 300px;  
+font-size: 30;
+
+
+}
+
+#recent{
+
+position: fixed;
+left: 810px;
+top: 200px;
+font-family: pixel;
+color: black;
+
+}
+
+#navigate{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 2000px;
+    height: 120px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#recents{
+
+    position: fixed;
+    left: 200px;
+    top: 300px;
+    width: 1500px;
+    height: 400px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+
+}
+
+#project1{
+    position: fixed;
+    left: 240px;
+    top: 325px;
+    width: 420px;
+    height: 350px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+
+#pro1img{
+
+    width: 400px;
+    position: fixed;
+    top: 350px;
+    left: 249px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#pro1text{
+
+    font-family: pixel;
+    position: fixed;
+    top: 550px;
+    left: 260px;
+}
+
+#pro1but{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    position: fixed;
+    top: 615px;
+    left: 300px;
+    font-family: pixel;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+
+#pro1but:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 45px;
+
+
+}
+
+#project2{
+    position: fixed;
+    left: 740px;
+    top: 325px;
+    width: 420px;
+    height: 350px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+
+#pro2img{
+
+    width: 400px;
+    position: fixed;
+    top: 350px;
+    left: 749px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#pro2text{
+
+    font-family: pixel;
+    position: fixed;
+    top: 550px;
+    left: 815px;
+}
+
+#pro2but{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    position: fixed;
+    top: 615px;
+    left: 800px;
+    font-family: pixel;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+
+#pro2but:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 45px;
+
+
+}
+
+#scroll{
+
+    overflow-y: scroll;
+    
+}
+
+#project3{
+    position: fixed;
+    left: 1240px;
+    top: 325px;
+    width: 420px;
+    height: 350px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+
+#pro3img{
+
+    width: 230px;
+    position: fixed;
+    top: 350px;
+    left: 1330px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#pro3text{
+
+    font-family: pixel;
+    position: fixed;
+    top: 550px;
+    left: 1295px;
+}
+
+#pro3but{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    position: fixed;
+    top: 615px;
+    left: 1300px;
+    font-family: pixel;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+
+#pro3but:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 45px;
+
+
+}
